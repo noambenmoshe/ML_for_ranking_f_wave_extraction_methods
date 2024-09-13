@@ -13,8 +13,7 @@ This repository contains MATLAB code and resources for the paper titled **"Machi
 5. [Data](#data)
 6. [Results](#results)
 7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
+
 
 ## Introduction
 
@@ -37,14 +36,25 @@ cd fwave
 
 ## Usage
 
-1. Data Preparation:
+1. **Data Preparation:**
+   
    Place your dataset in the databases/ directory. The dataset should be formatted according to the examples provided.
 
-2. Running the Analysis:
-
-Open MATLAB and navigate to the directory containing the cloned repository.
+3. **Running the Analysis:**
+   
+   Open MATLAB and navigate to the directory containing the cloned repository.
 Run the main program script:
 ```bash
 MAIN_PROGRAM
 ```
 The MAIN_PROGRAM.m script includes an example of how to use the data and evaluate the four f-wave extraction methods. It calculates features for each ECG example and for each extraction method and saves them.
+
+3. **Training and Evaluating the Random Forest Model:**
+   
+   After running the MAIN_PROGRAM.m script, the features will be saved. These features from each extraction method can be used as input to a Random Forest model that classifies if the ECG example is labled as Atrial Fibrilation or not. 
+The modle that will get the highest area under the receiver operating characteristic (AUROC) is the best extraction method.
+
+
+## Contributing
+
+ Do you have anything to add or fix? I'll be happy to talk about it! Open an issue/PR :)
