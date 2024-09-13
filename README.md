@@ -33,4 +33,18 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/yourrepository.git](https://github.com/noambenmoshe/fwave.git
 cd fwave
+```
 
+## Usage
+
+1. Data Preparation:
+   Place your dataset in the databases/ directory. The dataset should be formatted according to the examples provided.
+
+2. Running the Analysis:
+
+Open MATLAB and navigate to the directory containing the cloned repository.
+Run the main program script:
+```bash
+MAIN_PROGRAM
+```
+The MAIN_PROGRAM.m script includes an example of how to use the data and evaluate the four f-wave extraction methods. It calculates features for each ECG example and for each extraction method and saves them.
