@@ -9,8 +9,7 @@ clc
 %% define function paths
  
 slash = '\';
-main_path ='C:\Users\b.noam.BM\PycharmProjects\Noam_Repo\fwaves\'; 
-addpath 'C:\Users\b.noam.BM\PycharmProjects\fwave\fwave\fecgsyn-master\subfunctions\extraction-methods'
+main_path =pwd; 
  
 %% define global variables
 maxNumCompThreads(20)
@@ -50,7 +49,7 @@ LINE_WIDTH = 2;
  
 %% Load data
 for i=1:length(db)
-    main_path_db = [main_path 'databases' slash db{i} slash];
+    main_path_db = [main_path slash 'databases' slash db{i} slash];
     savefolder_figs = [main_path_db 'figs_preprocessed_all_60'];
     savefolder_mats = [main_path_db 'mats_preprocessed_all_60']; 
    
@@ -277,7 +276,7 @@ for i=1:length(db)
  
  
  
-        save(savefolder_mats + "\F_wave_dominant_peak"+file_prefix+"_tot_pca_" +NUM_OF_PCA_COMP+"_CQ_"+CORRECT_QRS+"_ch_"+lead_num+"_4.mat", 'myStruct');
+        save(savefolder_mats + "\F_wave_features"+file_prefix+"_" +NUM_OF_PCA_COMP+"_CQ_"+CORRECT_QRS+"_ch_"+lead_num+".mat", 'myStruct');
  
  
  
