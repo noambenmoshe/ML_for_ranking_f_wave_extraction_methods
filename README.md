@@ -4,6 +4,21 @@
 
 This repository contains MATLAB code and resources for the paper titled **"Machine Learning for Ranking f-wave Extraction Methods in Single-Lead ECGs"**. This research investigates various f-wave extraction methods for single-lead ECGs and utilizes machine learning to rank these methods based on their performance.
 
+<p align="center">
+<img src="./figures/framework.png" height = "360" alt="" align=center />
+</p>
+
+> 🌟 If you find this resource helpful, please consider to star this repository and cite our research:
+
+```
+@article{benmoshe2024MLfwaves,
+  title={Machine learning for ranking f-wave extraction methods in single-lead ECGs},
+  author={Ben-Moshe, Noam and Biton, Shany and Tsutsui, Kenta and Suleiman, Mahmoud and S{\"o}rnmo, Leif and Behar, Joachim A},
+  journal={biomedical signal processing and control},
+  year={2024}
+}
+```
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
@@ -11,8 +26,7 @@ This repository contains MATLAB code and resources for the paper titled **"Machi
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Data](#data)
-6. [Results](#results)
-7. [Contributing](#contributing)
+6. [Contributing](#contributing)
 
 
 ## Introduction
