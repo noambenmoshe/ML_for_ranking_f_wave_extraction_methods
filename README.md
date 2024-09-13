@@ -54,6 +54,12 @@ The MAIN_PROGRAM.m script includes an example of how to use the data and evaluat
    After running the MAIN_PROGRAM.m script, the features will be saved. These features from each extraction method can be used as input to a Random Forest model that classifies if the ECG example is labled as Atrial Fibrilation or not. 
 The modle that will get the highest area under the receiver operating characteristic (AUROC) is the best extraction method.
 
+## Data
+
+The data examples in the database folder are 1 minuet windows from the public database JPAFDB that was used in the paper.
+For more information about this database you can visit the paper: [SHDB-AF: a Japanese Holter ECG database of atrial fibrillation](https://www.researchgate.net/publication/381704611_SHDB-AF_a_Japanese_Holter_ECG_database_of_atrial_fibrillation)
+
+
 
 ## Contributing
 
