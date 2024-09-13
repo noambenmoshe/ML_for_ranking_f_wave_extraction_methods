@@ -44,7 +44,7 @@ To run the MATLAB code, you will need:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/yourrepository.git](https://github.com/noambenmoshe/fwave.git
+git clone https://github.com/noambenmoshe/fwave.git
 cd fwave
 ```
 
@@ -61,7 +61,7 @@ Run the main program script:
 ```bash
 MAIN_PROGRAM
 ```
-The MAIN_PROGRAM.m script includes an example of how to use the data and evaluate the four f-wave extraction methods. It calculates features for each ECG example and for each extraction method and saves them.
+The [MAIN_PROGRAM.m](MAIN_PROGRAM.m) script includes an example of how to use the data and evaluate the four f-wave extraction methods. It calculates features for each ECG example and for each extraction method and saves them.
 
 3. **Training and Evaluating the Random Forest Model:**
    
@@ -70,7 +70,7 @@ The modle that will get the highest area under the receiver operating characteri
 
 ## Data
 
-The data examples in the database folder are 1 minuet windows from the public database JPAFDB that was used in the paper.
+The data examples in the database folder are 1 minuet windows from the public [database](databases) JPAFDB that was used in the paper.
 For more information about this database you can visit the paper: [SHDB-AF: a Japanese Holter ECG database of atrial fibrillation](https://www.researchgate.net/publication/381704611_SHDB-AF_a_Japanese_Holter_ECG_database_of_atrial_fibrillation)
 
 
