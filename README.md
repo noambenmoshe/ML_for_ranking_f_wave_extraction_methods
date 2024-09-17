@@ -70,7 +70,7 @@ The modle that will get the highest area under the receiver operating characteri
 
 ## Data
 
-The data examples in the database folder are 1 minuet windows from the public [database](databases) JPAFDB that was used in the paper.
+In the published manuscript some preprocessing routines were used and are not provided as part of the open source release. You can find some preprocessed data examples in the [database](database) folder. The data examples are 1 minuet windows or raw ECG from the public [database](databases) JPAFDB that was used in the paper.
 For more information about this database you can visit the paper: [SHDB-AF: a Japanese Holter ECG database of atrial fibrillation](https://www.researchgate.net/publication/381704611_SHDB-AF_a_Japanese_Holter_ECG_database_of_atrial_fibrillation)
 
 
