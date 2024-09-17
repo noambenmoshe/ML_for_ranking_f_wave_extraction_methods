@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains MATLAB code and resources for the paper titled **"Machine Learning for Ranking f-wave Extraction Methods in Single-Lead ECGs"**. This research investigates various f-wave extraction methods for single-lead ECGs and utilizes machine learning to rank these methods based on their performance.
+This repository contains MATLAB code and resources for the paper titled [**"Machine Learning for Ranking f-wave Extraction Methods in Single-Lead ECGs"**](https://www.sciencedirect.com/science/article/abs/pii/S1746809424008759). This research investigates various f-wave extraction methods for single-lead ECGs and utilizes machine learning to rank these methods based on their performance.
 
 <p align="center">
 <img src="./figures/fwave.png" height = "360" alt="" align=center />
@@ -70,7 +70,7 @@ The modle that will get the highest area under the receiver operating characteri
 
 ## Data
 
-In the published manuscript some preprocessing routines were used and are not provided as part of the open source release. You can find some preprocessed data examples in the [database](database) folder. The data examples are 1 minuet windows or raw ECG from the public [database](databases) JPAFDB that was used in the paper.
+In the published manuscript some preprocessing routines were used and are not provided as part of the open source release. You can find some preprocessed data examples in the [database](databases/JPAFDB) folder. The data examples are 1 minuet windows or raw ECG from the public [database](databases) JPAFDB that was used in the paper.
 For more information about this database you can visit the paper: [SHDB-AF: a Japanese Holter ECG database of atrial fibrillation](https://www.researchgate.net/publication/381704611_SHDB-AF_a_Japanese_Holter_ECG_database_of_atrial_fibrillation)
 
 
